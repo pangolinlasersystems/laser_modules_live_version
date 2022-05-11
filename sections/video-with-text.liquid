@@ -1,0 +1,45 @@
+<div class="video-with-text-wrap page-width">
+  <div class="video-with-text-info">
+    <div class="info-wrap">
+      <h2>{{ section.settings.title }}</h2>
+      <div class="info">{{ section.settings.info }}</div>
+    </div>
+    <div class="video-wrap">
+      <div class="video-col">
+        <div class="responsive-video">
+        	{{ section.settings.video }}  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "Video with text",
+    "settings": [
+	{
+		"type": "text",
+		"id": "title",
+		"label": "Heading"
+	},
+	{
+		"type": "html",
+		"id": "info",
+		"label": "Info"
+	},
+	{
+		"type": "html",
+		"id": "video",
+		"label": "Video",
+		"info": "Paste YouTube embed code"
+	}
+	],
+ "presets": [
+    {
+      "name": "Video with text",
+      "category": "Video"
+    }
+  ]
+  }
+{% endschema %}

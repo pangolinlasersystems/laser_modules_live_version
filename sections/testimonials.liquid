@@ -1,0 +1,57 @@
+<div class="testimonials-page page-width">
+  <ul class="testimonials-page-content">
+    {% for block in section.blocks %}
+    <li class="testimonial-box">
+      <img src="https://cdn.shopify.com/s/files/1/0311/3415/4891/files/quote.svg?v=1585313523">
+      <div class="testimonials-quote">
+        <p>{{ block.settings.quote }}</p>
+      </div>
+
+      <div class="testimonials-line"></div>
+
+      <p class="quote-author">{{ block.settings.author }}</p>
+    </li>
+    {% endfor %}
+    
+  </ul>
+  <div class="testimonials-btn-wrap">
+      <button id="testimonals-btn" class="btn">
+      Load more
+    </button>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Testimonials page",
+    "settings": [
+
+	],
+	  "blocks": [
+    {
+      "type": "text",
+      "name": "Testimonial",
+      "settings": [
+	  {
+        "type": "text",
+        "id": "quote",
+        "label": "Quote",
+		"default": "Quote"
+      },
+	  {
+        "type": "text",
+        "id": "author",
+        "label": "Author",
+		"default": "Author"
+      }
+	]
+	}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

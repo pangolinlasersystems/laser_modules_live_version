@@ -1,0 +1,275 @@
+<div class="featured-blog-wrap">
+  {% if section.settings.title != blank %}
+    <header class="section-header">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </header>
+  {% endif %}
+
+  {%- assign blog = blogs[section.settings.blog] -%}
+
+  {% unless blog.articles_count == 0 %}
+    <ul class="featured-blog-content">
+      {% for article in blog.articles limit: section.settings.post_limit %}
+        <li class="featured-blog">
+          <a href="{{ article.url }}" class="article__link" style="background-image: url('{{ article.image | img_url: 'master' }}');">
+ 
+            <h3 class="article__title">
+              {{ article.title }}
+            </h3>
+          </a>
+
+          <div class="article__grid-meta">
+            {% if section.settings.blog_show_author %}
+              <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
+            {% endif %}
+
+            {% if section.settings.blog_show_date %}
+              <span class="article__date">
+                {{ article.published_at | time_tag: format: 'date' }}
+              </span>
+            {% endif %}
+
+            <div class="rte article__grid-excerpt">
+              {% if article.excerpt.size > 0 %}
+                {{ article.excerpt }}
+              {% else %}
+                {{ article.content | strip_html | truncate: 220 }}
+              {% endif %}
+            </div>
+
+            {% if article.tags.size > 0 %}
+              <div class="article__tags rte">
+                <ul class="list--inline" aria-label="{{ 'blogs.article.tags' | t }}">
+                  {% for tag in article.tags %}
+                    <li>
+                      <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="article__grid-tag">{{ tag }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <div class="grid grid--uniform grid--blog">
+      {% for i in (1..section.settings.post_limit) %}
+        <div class="grid__item medium-up--one-third">
+          <div class="article__grid-meta">
+            <h3 class="article__title">
+              <a href="#">{{ 'homepage.onboarding.blog_title' | t }}</a>
+            </h3>
+
+            {% if section.settings.blog_show_author %}
+              <span class="article__author">{{ 'homepage.onboarding.blog_author' | t }}</span>
+            {% endif %}
+
+            <div class="rte article__grid-excerpt">
+              {{ 'homepage.onboarding.blog_excerpt' | t }}
+            </div>
+
+            <ul class="list--inline article__meta-buttons">
+              <li>
+                <a href="{{ article.url }}" class="btn btn--tertiary btn--small">
+                  {{ 'blogs.article.read_more' | t }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endunless %}
+
+  {% if section.settings.show_view_all %}
+    <hr class="hr--invisible" aria-hidden="true"></hr>
+    <div class="text-center">
+      <a href="{{ blog.url }}" class="btn" aria-label="{{ 'blogs.article.view_all_blogs' | t }}">
+        {{ 'blogs.article.view_all' | t }}
+      </a>
+    </div>
+  {% endif %}
+</div>
+
+
+
+{% schema %}
+{
+  "name": {
+    "da": "Blogopslag",
+    "de": "Blogposts",
+    "en": "Blog posts",
+    "es": "Entradas del blog",
+    "fi": "Blogijulkaisut",
+    "fr": "Articles de blog",
+    "hi": "ब्लॉग पोस्ट",
+    "it": "Articoli del blog",
+    "ja": "ブログ記事",
+    "ko": "블로그 게시물",
+    "ms": "Siaran blog",
+    "nb": "Blogginnlegg",
+    "nl": "Blogberichten",
+    "pt-BR": "Posts do blog",
+    "pt-PT": "Publicações no blogue",
+    "sv": "Blogginlägg",
+    "th": "โพสต์บล็อก",
+    "zh-CN": "博客文章",
+    "zh-TW": "部落格文章"
+  },
+  "class": "index-section featured-blog-posts-wrap",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "da": "Overskrift",
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fi": "Otsake",
+        "fr": "En-tête",
+        "hi": "शीर्षक",
+        "it": "Heading",
+        "ja": "見出し",
+        "ko": "제목",
+        "ms": "Tajuk",
+        "nb": "Overskrift",
+        "nl": "Kop",
+        "pt-BR": "Título",
+        "pt-PT": "Título",
+        "sv": "Rubrik",
+        "th": "ส่วนหัว",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": {
+        "da": "Blogopslag",
+        "de": "Blogposts",
+        "en": "Blog posts",
+        "es": "Entradas del blog",
+        "fi": "Blogijulkaisut",
+        "fr": "Articles de blog",
+        "hi": "ब्लॉग पोस्ट",
+        "it": "Articoli del blog",
+        "ja": "ブログ記事",
+        "ko": "블로그 게시물",
+        "ms": "Siaran blog",
+        "nb": "Blogginnlegg",
+        "nl": "Blogberichten",
+        "pt-BR": "Posts do blog",
+        "pt-PT": "Publicações no blogue",
+        "sv": "Blogginlägg",
+        "th": "โพสต์บล็อก",
+        "zh-CN": "博客文章",
+        "zh-TW": "部落格文章"
+      }
+    },
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": {
+        "da": "Blog",
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fi": "Blogi",
+        "fr": "Blog",
+        "hi": "ब्लॉग",
+        "it": "Blog",
+        "ja": "ブログ",
+        "ko": "블로그",
+        "ms": "Blog",
+        "nb": "Blogg",
+        "nl": "Blog",
+        "pt-BR": "Blog",
+        "pt-PT": "Blogue",
+        "sv": "Blogg",
+        "th": "บล็อก",
+        "zh-CN": "博客",
+        "zh-TW": "部落格"
+      }
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": {
+        "da": "Opslag",
+        "de": "Posts",
+        "en": "Posts",
+        "es": "Publicaciones",
+        "fi": "Julkaisut",
+        "fr": "Articles",
+        "hi": "पोस्ट",
+        "it": "Articoli",
+        "ja": "投稿",
+        "ko": "게시물",
+        "ms": "Siaran",
+        "nb": "Innlegg",
+        "nl": "Berichten",
+        "pt-BR": "Posts",
+        "pt-PT": "Publicações",
+        "sv": "Inlägg",
+        "th": "โพสต์",
+        "zh-CN": "文章",
+        "zh-TW": "貼文"
+      },
+      "min": 3,
+      "max": 3,
+      "step": 3,
+      "default": 3
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "da": "Blogopslag",
+        "de": "Blogposts",
+        "en": "Blog posts",
+        "es": "Entradas del blog",
+        "fi": "Blogijulkaisut",
+        "fr": "Articles de blog",
+        "hi": "ब्लॉग पोस्ट",
+        "it": "Articoli del blog",
+        "ja": "ブログ記事",
+        "ko": "블로그 게시물",
+        "ms": "Siaran blog",
+        "nb": "Blogginnlegg",
+        "nl": "Blogberichten",
+        "pt-BR": "Posts do blog",
+        "pt-PT": "Publicações no blogue",
+        "sv": "Blogginlägg",
+        "th": "โพสต์บล็อก",
+        "zh-CN": "博客文章",
+        "zh-TW": "部落格文章"
+      },
+      "category": {
+        "da": "Blog",
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fi": "Blogi",
+        "fr": "Blog",
+        "hi": "ब्लॉग",
+        "it": "Blog",
+        "ja": "ブログ",
+        "ko": "블로그",
+        "ms": "Blog",
+        "nb": "Blogg",
+        "nl": "Blog",
+        "pt-BR": "Blog",
+        "pt-PT": "Blogue",
+        "sv": "Blogg",
+        "th": "บล็อก",
+        "zh-CN": "博客",
+        "zh-TW": "部落格"
+      },
+      "settings": {
+        "blog": "News",
+        "post_limit": 3
+      }
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,91 @@
+<div class="page-bg">
+  <div class="page-width">
+    {% include 'breadcrumbs' %}
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+
+<p><script type="text/javascript"> 
+$( function(){
+    var recalc = function(){
+        console.log("recalc");
+        
+        var diam = Number($("#diam").val());
+        var divergence = Number($("#divergence").val());
+        var dist = Number($("#dist").val());
+        var power = Number($("#power").val());
+        
+        var mdiam = diam + divergence * dist;
+        $("#audiencediam").html(mdiam.toFixed(1));
+        $("#diam2").html(diam.toFixed(1));
+        if (mdiam < 7) mdiam = 7;
+        $("#mdiam").html(mdiam.toFixed(1));
+     
+        var area = (mdiam * mdiam *  Math.PI) / 4;
+        $("#area").html(area.toFixed(1));
+     
+        if (power && mdiam) {
+            var irrad = power / area * 100;
+            $("#irrad").html(irrad.toFixed(1));
+        } else {
+            $("#irrad").html("");
+        }
+     
+        var diamdist = Number($("#diamdist").val());
+        var calcdist = Number($("#calcdist").val());
+        if (diamdist && calcdist) {
+            var calcdiv = (2*Math.atan((diamdist/10 - diam/10)/(2 * calcdist)))*10;
+            $("#calcdiv").html(calcdiv.toFixed(1));
+        } else {
+            $("#calcdiv").html("");
+        }
+    };
+    
+    $(document).on('change', '.calc', function(){
+        recalc();
+    });
+});
+</script>
+</p>
+
+<div class="laser-calculator-wrap page-width">
+  <p>Here's one of the most essential tools for assessing the basic laser display safety and MPEs.</p>
+  
+  <div id="Calculator">
+    <h3>Irradiance Calculator</h3>
+
+    <dl>
+      <dt>Beam diameter at aperture:</dt>
+      <dd><input class="calc" id="diam" /> mm</dd>
+      <dt>Divergence:</dt>
+      <dd><input class="calc" id="divergence" /> mrad</dd>
+      <dt>Distance to audience:</dt>
+      <dd><input class="calc" id="dist" /> m</dd>
+      <dt>Laser power:</dt>
+      <dd><input class="calc" id="power" /> mW</dd>
+      <dt>Diameter at audience:</dt>
+      <dd><span id="audiencediam">&nbsp;</span>mm</dd>
+      <dt>Minimum diameter (&gt; 7mm):</dt>
+      <dd><span id="mdiam">&nbsp;</span>mm</dd>
+      <dt>Beam area:</dt>
+      <dd><span id="area">&nbsp;</span>mm&sup2;</dd>
+      <dt>Irradiance:</dt>
+      <dd><span id="irrad">&nbsp;</span>mW/cm&sup2;</dd>
+    </dl>
+
+    <h3>Divergence Calculator</h3>
+
+    <dl>
+      <dt>Beam diameter at aperture:</dt>
+      <dd><span id="diam2">&nbsp;</span>mm</dd>
+      <dt>Beam diameter at distance L:</dt>
+      <dd><input class="calc" id="diamdist" /> mm</dd>
+      <dt>Distance L:</dt>
+      <dd><input class="calc" id="calcdist" /> m</dd>
+      <dt>Calculated divergence:</dt>
+      <dd><span id="calcdiv">&nbsp;</span>mrad</dd>
+    </dl>
+  </div>
+
+</div>

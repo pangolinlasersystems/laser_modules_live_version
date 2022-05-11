@@ -1,0 +1,118 @@
+<div class="wavelength-guide-wrap page-width">
+  <div class="wavelength-guide-info-wrap">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="wavelength-guide-info">
+      {{ section.settings.info }}
+    </div>
+    
+    <div class="wavelength-guide-links">
+      <a class="wavelength-guide-link" href="/collections/wavelength-304">304</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-320">320</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-375">375</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-395">395</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-405">405</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-415">415</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-420">420</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-445">445</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-460">460</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-462">462</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-473">473</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-480">480</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-488">488</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-505">505</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-514">514</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-520">520</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-532">532</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-561">561</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-577">577</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-590">590</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-607">607</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-637">637</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-638">638</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-639">639</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-660">660</a>
+      <p class="wavelength-guide-link">808</p>
+      <p class="wavelength-guide-link">852</p>
+      <p class="wavelength-guide-link">915</p>
+    </div>
+    
+    <div class="wavelength-guide-line-gradient">
+
+    </div>
+    
+       <!--  Mobile Gradient    -->
+    <div class="wavelength-guide-links mobile-wavelength-guide-links mobile-wavelength-guide-links-1">
+      <a class="wavelength-guide-link" href="/collections/wavelength-304">304</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-320">320</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-375">375</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-395">395</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-405">405</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-415">415</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-420">420</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-445">445</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-460">460</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-462">462</a>
+    </div>
+
+    <div class="wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient-1">
+
+    </div>
+
+    <div class="wavelength-guide-links mobile-wavelength-guide-links mobile-wavelength-guide-links-2">
+      <a class="wavelength-guide-link" href="/collections/wavelength-473">473</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-480">480</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-488">488</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-505">505</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-514">514</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-520">520</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-532">532</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-561">561</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-577">577</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-590">590</a>
+    </div>
+
+    <div class="wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient-2">
+
+    </div>
+
+    <div class="wavelength-guide-links mobile-wavelength-guide-links mobile-wavelength-guide-links-3">
+      <a class="wavelength-guide-link" href="/collections/wavelength-607">607</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-637">637</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-638">638</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-639">639</a>
+      <a class="wavelength-guide-link" href="/collections/wavelength-660">660</a>
+      <p class="wavelength-guide-link">808</p>
+      <p class="wavelength-guide-link">852</p>
+      <p class="wavelength-guide-link">915</p>
+    </div>
+
+    <div class="wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient mobile-wavelength-guide-line-gradient-3">
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Wavelength Guide",
+    "settings": [
+	{
+		"type": "text",
+		"id": "title",
+		"label": "Heading"
+	},
+	{
+		"type": "richtext",
+		"id": "info",
+		"label": "Info",
+		"default": "<p>Info</p>"
+	}
+	],
+ "presets": [
+    {
+      "name": "Wavelength Guide",
+      "category": "Advanced Layout"
+    }
+  ]
+  }
+{% endschema %}

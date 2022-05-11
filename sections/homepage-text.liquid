@@ -1,0 +1,24 @@
+<div class="homepage-text">
+  <div class="homepage-text-content">
+    {{ section.settings.homepage_text }}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Homepage Text",
+    "settings": [
+	 {
+        "type": "html",
+        "id": "homepage_text",
+        "label": "Text"
+      }
+	],
+    "presets": [
+      {
+        "name": "Homepage Text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}

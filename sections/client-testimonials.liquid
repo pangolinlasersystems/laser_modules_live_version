@@ -1,0 +1,128 @@
+<section class="section-client-testimonials">
+  <div class="client-testimonials-container">
+    {% if section.settings.title != blank %}
+    <div class="home-section--header">
+      <h2 class="home-section--title">
+        {{ section.settings.title | escape }}
+      </h2>
+
+
+      {% if section.settings.link != blank %}
+      <a href="{{ section.settings.link }}">{{ section.settings.link_name }}</a>
+      {% endif %}
+    </div>
+    {% if section.settings.sub_title != blank %}
+    <h4 class="h2-subtitle">{{ section.settings.sub_title }}</h4>
+    {% endif %}
+    {% endif %}
+
+    <div class="client-testimonials-wrap">
+      {% if section.settings.video_iframe_1 != blank %}
+      <div class="client-testimonials-wrap__item text-center">
+        <div class="client-video-wrapper">
+          {{ section.settings.video_iframe_1 }}
+        </div>
+        <div class="info-wrap">
+          <h4 class="client-name">{{ section.settings.client_name_1 }}</h4>   
+        </div>
+      </div>
+      {% endif %}
+
+      {% if section.settings.video_iframe_2 != blank %}
+      <div class="client-testimonials-wrap__item text-center">
+        <div class="client-video-wrapper">
+          {{ section.settings.video_iframe_2 }}
+        </div>
+        <div class="info-wrap">
+          <h4 class="client-name">{{ section.settings.client_name_2 }}</h4>   
+        </div>
+      </div>
+      {% endif %}
+
+      {% if section.settings.video_iframe_3 != blank %}
+      <div class="client-testimonials-wrap__item text-center">
+        <div class="client-video-wrapper">
+          {{ section.settings.video_iframe_3 }}
+        </div>
+        <div class="info-wrap">
+          <h4 class="client-name">{{ section.settings.client_name_3 }}</h4>   
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Client Testimonials",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Client Testimonials"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Subheading",
+        "default": "Client Testimonials"
+      },
+      {
+        "id": "link",
+        "type": "url",
+        "label": "Link"
+      },
+      {
+        "id": "link_name",
+        "type": "text",
+        "label": "Title",
+		"default": "See more"
+      },
+      {
+        "type": "header",
+        "content": "Video Iframes"
+      },
+            {
+        "type": "html",
+        "id": "video_iframe_1",
+        "label": "Video Iframe 1"
+      },
+	  {
+        "type": "text",
+        "id": "client_name_1",
+        "label": "Video Title 1",
+        "default": "Video Title"
+      },
+	  {
+        "type": "html",
+        "id": "video_iframe_2",
+        "label": "Video Iframe 2"
+      },
+	  {
+        "type": "text",
+        "id": "client_name_2",
+        "label": "Video Title 2",
+        "default": "Video Title"
+      },
+      {
+        "type": "html",
+        "id": "video_iframe_3",
+        "label": "Video Iframe 3"
+      },
+	  {
+        "type": "text",
+        "id": "client_name_3",
+        "label": "Video Title 3",
+        "default": "Video Title"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Client Testimonials",
+        "category": "Advanced layout"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,56 @@
+<div class="faq-wrap page-width">
+  <h3>{{ section.settings.heading }}</h3>
+  <div class="faq-wrap-section">
+    {% for block in section.blocks %}
+    <div class="tab-accordion-wrap">
+      <button class="accordion">{{ block.settings.title }}
+        <img class="faq-icon close-icon" src="https://cdn.shopify.com/s/files/1/0310/9955/1789/files/1.png?v=1586951882">
+        <img class="faq-icon open-icon" src="https://cdn.shopify.com/s/files/1/0310/9955/1789/files/2.png?v=1586951882">
+      </button>
+      <div class="panel">
+        {{ block.settings.faq_answer }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [
+	  {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading ",
+		"default": "Heading"
+      }
+	],
+	  "blocks": [
+    {
+      "type": "text",
+      "name": "FAQ",
+      "settings": [
+	  {
+        "type": "text",
+        "id": "title",
+        "label": "Title ",
+		"default": "Title"
+      },
+	  {
+        "type": "richtext",
+        "id": "faq_answer",
+        "label": "Info ",
+		"default": "<p>Info</p>"
+      }
+	]
+	}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

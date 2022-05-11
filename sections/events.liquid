@@ -1,0 +1,68 @@
+<div class="events-wrap page-width"> 
+    
+  <h2>All trade shows have been cancelled.</h2>
+  
+  {% for block in section.blocks %}
+  
+  <div class="event-row">
+    <div class="event-image">
+      {% if block.settings.event_img != blank %}
+    	<img src="{{ block.settings.event_img | img_url: 'master' }}">
+      {% endif %}
+    </div>
+    <div class="event-info">
+      <h2 class="event-title">{{ block.settings.title }}</h2>
+      <span class="event-date">{{ block.settings.event_date }}</span>
+    </div>
+    <div class="event-additional-info">
+    	{{ block.settings.event_additional_info }}
+    </div>
+  </div>
+  
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Events",
+    "settings": [],
+	  "blocks": [
+    {
+      "type": "text",
+      "name": "Event",
+      "settings": [
+	  {
+        "type": "image_picker",
+        "id": "event_img",
+        "label": "Image",
+		"info": "Recommended size 230x110px"
+      },
+	  {
+        "type": "text",
+        "id": "title",
+        "label": "Title ",
+		"default": "Title"
+      },
+	  {
+        "type": "text",
+        "id": "event_date",
+        "label": "Date ",
+		"default": "Date"
+      },
+	  {
+        "type": "html",
+        "id": "event_additional_info",
+        "label": "Info ",
+		"default": "Info"
+      }
+	]
+	}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,71 @@
+<div class="sales-network-wrap page-width">
+  {% for block in section.blocks %}
+  
+  <div class="sales-network-card">
+    <h2>{{ block.settings.title }}</h2>
+    <p class="city">{{ block.settings.city }}</p>
+    <p class="country">{{ block.settings.country }}</p>
+    <p class="phone"><strong>Phone:</strong> {{ block.settings.phone }}</p>
+    <a href="{{ block.settings.website_link }}" class="website-link" target="_blank"><strong>Website:</strong> {{ block.settings.website_link_title }}</a>
+    <img src="{{ block.settings.flag | img_url: 'master' }}">
+  </div>
+  
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Sales Network",
+    "settings": [],
+	  "blocks": [
+    {
+      "type": "text",
+      "name": "Sales Network Card",
+      "settings": [
+	  {
+        "type": "text",
+        "id": "title",
+        "label": "Company/Person Name",
+		"default": "Company/Person Name"
+      },
+	  {
+        "type": "text",
+        "id": "city",
+        "label": "City",
+		"default": "City"
+      },
+	  {
+        "type": "text",
+        "id": "phone",
+        "label": "Phone",
+		"default": "Phone"
+      },
+	  {
+        "type": "text",
+        "id": "country",
+        "label": "Country",
+		"default": "Country"
+      },
+	  {
+        "type": "text",
+        "id": "website_link_title",
+        "label": "Website Title",
+		"default": "Website"
+      },
+	  {
+        "type": "url",
+        "id": "website_link",
+        "label": "Website Link"
+      },
+	  {
+        "type": "image_picker",
+        "id": "flag",
+        "label": "Country Flag Image",
+		"info": "Recommended size 40x20px"
+      }
+	]
+	}
+]
+  }
+{% endschema %}
+

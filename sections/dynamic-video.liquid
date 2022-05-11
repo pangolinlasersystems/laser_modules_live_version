@@ -1,0 +1,69 @@
+<div class="dynamic-video-wrapper">
+
+  {% assign url = section.settings.url %}
+
+  <video width="100%" height="100%" autoplay="autoplay" muted preload="auto" loop="loop">
+    <source src="{{section.settings.videoUrl}}" type="video/mp4">
+  </video>
+  
+  <div class="wrap-content">
+    <div class="text-content">
+      <h2>{{section.settings.video_title}}</h2>
+      <h1>{{section.settings.video_subtitle}}</h1>
+      
+      {% if section.settings.btn_link != blank %}
+      <a href="{{section.settings.btn_link}}" class="btn">{{section.settings.btn_title}}</a>
+      {% endif %}
+    </div>
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Video 2",
+  "class": "section-video",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "url",
+      "id": "videoUrl",
+      "label": "Video Link"
+    },
+    {
+      "type": "html",
+      "id": "video_title",
+      "label": "Title"
+    },
+    {
+      "type": "html",
+      "id": "video_subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "Button Title"
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Video",
+      "name": "Video 2"
+    }
+  ]
+}
+
+{% endschema %}
