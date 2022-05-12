@@ -180,26 +180,6 @@
     $(document).find('.product-form__cart-submit').click();
   });
 </script>
-  
-  {% if template == 'product' %}
-  <script>
-    $('#customBtn').click(function () {
-      $(document).find('#mwAddToCart').click();
-    });
-  </script>
-  {% elsif template == 'product.alternate-without-options' %}
-  <script>   
-    $('#customBtn').click(function () {
-      $(document).find('.product-form__cart-submit').click();
-    });
-  </script>
-  {% elsif template == 'product.simplified' %}
-    <script>
-    $('#customBtn').click(function () {
-      $(document).find('.product-form__cart-submit').click();
-    });
-  </script>
-  {% endif %}
 
   </body>
 </html>
