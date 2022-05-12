@@ -178,7 +178,7 @@
   {% if template == 'product' %}
   <script>
     $('#customBtn').click(function () {
-      $(document).find('#mwAddToCart').click();
+      $(document).find('#mwAddToCart, .product-form__cart-submit').click();
     });
   </script>
   {% elsif template == 'product.alternate-without-options' %}
