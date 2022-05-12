@@ -40,6 +40,13 @@
         href : window.location.href,
         type: "{{ request.page_type }}"
     };
+    {% if request.page_type == 'product' %}
+    Globo.FormBuilder.product= {
+        title : '{{ product.title }}',
+        type : '{{ product.type }}',
+        vendor : '{{ product.vendor }}'
+    }
+    {% endif %}
     Globo.FormBuilder.assetFormUrls = [];
             Globo.FormBuilder.assetFormUrls[79884] = "{{ 'globo.formbuilder.data.79884.js' | asset_url }}";
                     Globo.FormBuilder.assetFormUrls[79947] = "{{ 'globo.formbuilder.data.79947.js' | asset_url }}";
