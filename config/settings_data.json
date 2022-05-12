@@ -1,1 +1,1060 @@
-{"current":{"color_text":"#1b1b1b","color_body_text":"#1b1b1b","color_sale_text":"#557b97","color_button":"#d30000","color_button_text":"#fff","color_small_button_text_border":"#1b1b1b","color_text_field_text":"#1b1b1b","color_text_field_border":"#949494","color_text_field":"#fff","color_image_overlay_text":"#fff","color_image_overlay":"#3d4246","image_overlay_opacity":40,"color_borders":"#e8e9eb","color_body_bg":"#fff","type_header_font":"work_sans_n6","type_header_base_size":26,"type_base_font":"work_sans_n4","type_base_size":16,"predictive_search_enabled":false,"predictive_search_show_vendor":false,"predictive_search_show_price":false,"share_image":"","share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"https:\/\/twitter.com\/KVANTLaser","social_facebook_link":"https:\/\/www.facebook.com\/kvantlasers","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"https:\/\/www.youtube.com\/user\/shopkvant","social_vimeo_link":"","favicon":"","enable_ajax":true,"checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/modules-logo_6d8f7616-2b51-4c74-84ef-dbb35b4d878f.png","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#d30000","checkout_button_color":"#d30000","checkout_error_color":"#e32c2b","sections":{"header":{"type":"header","settings":{"logo":"shopify:\/\/shop_images\/pangolin_kvant_lasers_logo.webp","logo_max_width":250,"main_linklist":"main-menu","message":false,"home_page_only":false,"message_text":"Announce something here","message_link":"","color_bg":"#f0f0f0","color_text":"#000000"}},"footer":{"type":"footer","blocks":{"1580202135563":{"type":"link_list","settings":{"title":"Products","menu":"products"}},"link_list":{"type":"link_list","settings":{"title":"Support","menu":"footer"}},"newsletter":{"type":"newsletter","settings":{"social_title":"","show_social_icons":false,"title":"Subscribe to our newsletter"}}},"block_order":["1580202135563","link_list","newsletter"],"settings":{"color_footer_bg":"#ecebf0"}},"1580910331581":{"type":"featured-blog","settings":{"title":"","blog":"news","post_limit":3}},"collection-template":{"type":"collection-template","settings":{"grid":4,"sort_enable":true,"tags_enable":false}},"product-template":{"type":"product-template","settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"heading":"Related products","show_vendor":false}},"alternate-without-options-template":{"type":"alternate-without-options-template","settings":{}},"blog-template":{"type":"blog-template","settings":{}},"article-template":{"type":"article-template","settings":{"blog_show_author":false,"blog_show_date":true,"show_share_buttons":false}},"testimonials":{"type":"testimonials","blocks":{"1585742130869":{"type":"text","settings":{"quote":"I used KVANT lasers for a demo at Disney Imagineering. After a successful demo, we were awarded a contract for a new attraction at Disney Hong Kong. Working with the KVANT team was flawless, and KVANT was integral to our successful completion of this important project.","author":"Randy Johnson – Blisslights, USA"}},"1585742144941":{"type":"text","settings":{"quote":"Our company specializes in video, but we often use lasers for a quality show. KVANT has been our exclusive partner for laser shows for more than 3 years. Together we have done a lot of events, including show scoring at ILDA awards, which we are rightly proud of :). KVANT is also a crucial supplier of LED screens, including the record-breaking longest in-store LED screen 30 meters long! For us, KVANT is a quality partner with the best service.","author":"Screenrental CZ – Jan Neubauer"}},"1585742164085":{"type":"text","settings":{"quote":"We have been cooperating with KVANT for more than 5 years and have done tens of different projects in the Czech Republic and abroad together – from small art shows up to large multimedia shows for tens of thousands of viewers. We appreciate the professionalism and creativity which our colleagues from KVANT bring to our every mutual project. We have every reason to believe this cooperation will continue for years to come.","author":"Art4promotion CZ – Ing. Rudolf Střitecký"}},"1585742174829":{"type":"text","settings":{"quote":"More than 50 events with KVANT lasers and LED screens have convinced us that it’s important to choose proven suppliers. A professional team and cutting-edge technologies make events with KVANT exceptional visual shows. That’s why Slovakia is never too far for us.","author":"Cirque Production CZ – Martin Kvítek"}},"1585742183277":{"type":"text","settings":{"quote":"As the technical director for Arc Festival, I required a high impact laser solution to supplement a comprehensive installation on the main stage. KVANT UK provided an impressive full-colour multi laser setup for us, and programmed it expertly to match the diverse performances on the main stage. Working within tight time constraints, the hardware was installed quickly and safely. I would not hesitate to recommend KVANT UK for another project and would like to work with them again.","author":"Will Young – UK"}},"1585742191493":{"type":"text","settings":{"quote":"It’s how a business responds when things go wrong that marks the quality of their service. We recently ordered two ATOM 1500 lasers from KVANT UK. The pre-sales assistance was excellent. However, one laser was received damaged upon delivery. Well, it was collected and the replacement received within 10 working days; no fuss, no bother, no stress. I also know that KVANT has worked to ensure the nature of the damage will not reoccur in the future.","author":"Laurence Lane – AMP, UK"}},"1585742201188":{"type":"text","settings":{"quote":"With regard to the KVANT Spectrum 3W with HP scanners, all I can say is that the system is awesome – it blows my other Chinese lasers out of the water in every respect. People are always commenting that the quality of the beams and colours produced are the best they've ever seen, and I agree. The service from KVANT UK has also been excellent, usually with immediate and enthusiastic response.","author":"Sean Hockey – Illumashroom, UK"}},"1585742210525":{"type":"text","settings":{"quote":"I've been doing laser shows for around 14 years and I bought my first KVANT projector 8 years ago. So far, I have done over 270 shows with it and it is still going strong! I just purchased two new ClubMax 3400 systems. Built like tanks, their performance is second to none, as expected. Anytime I’ve had technical questions, they were answered quickly. I hope to purchase more KVANT units real soon, as my clients really notice the difference between them and the cheaper Chinese-built systems my competitors use.","author":"Carlos Lopez – LasersLive, USA"}},"1585742219532":{"type":"text","settings":{"quote":"We were doing a light and laser show for the unveiling of Barone Fortress in Šibenik on the Adriatic coast. Two hours before the event, we realized that one KVANT Clubmax 6000 was only projecting in red. After some error checking, I decided to call KVANT tech support. Long story short, after a very long call with an extremely helpful support technician, we determined the cause and repaired it right there just before the event started. You have excellent tech support which saved me in a very tricky situation, and I am really grateful.","author":"Hrvoje Simic – Prolight, Croatia"}},"1585742232069":{"type":"text","settings":{"quote":"I recently purchased a KVANT ClubMax 6000 and I am very impressed with this laser projector. The beams are tight, with clean color mixing, and the Pangolin 506 scanners maintain image integrity even with complex graphics. We really stress-tested the projector during the 2015 YouTube Music Awards, and it handled everything we threw at it. It outperformed some of the bigger and more expensive projectors we had, especially at wide angles. I plan to order more of these. KVANT quality is unbeatable, especially at such a great price.","author":"Adam LaBay – Future Weapons, USA"}},"1585742242917":{"type":"text","settings":{"quote":"I have a customer who wanted to rent the same lasers he rented last year. I told him that I had something new that he might like, and I could showcase it for him at an upcoming meeting with his fellow colleagues. I walked into the meeting and set up the KVANT unit. After the fog machine fired up, I turned on the laser with some simple beam shows... \"Holy cow!\" was pretty much the reaction in the entire room! Not only was my client amazed, but his entire crew lit up almost as bright as the laser itself. They could not have been more happy and excited with anticipation for the event coming up. I know that this laser will be the pinnacle of the show.","author":"Bob Fleischmann – USA"}},"1585742252508":{"type":"text","settings":{"quote":"Here at FullColorlasers.com we were looking for the perfect laser for small to medium size venues at an affordable price. We initially decided to purchase two Clubmax 3000s just for a test, and ended up being so pleased with their performance that we immediately purchased six more units. This laser has more power than expected, is durable, and produces vivid colors. For the price, you simply can’t beat it!","author":"Brooks Palmers – Full Color Lasers, USA"}},"1585742263093":{"type":"text","settings":{"quote":"I used KVANT lasers for a demo at Disney Imagineering. After a successful demonstration of Particle effects (Laser Pixi Dust Trails), Blisslights was awarded a contract to develop a variation of the Particle effect for the new ride attraction \"Mystic Manor\" at Disney Hong Kong. Working with the KVANT team was flawless, and KVANT was an integral part of our successful completion of this important project.","author":"Randy Johnson – Blisslights, USA"}},"1585742272092":{"type":"text","settings":{"quote":"I am very impressed with the build quality and construction of the ClubMax 6000 lasers. The FB4 backpacks and the optional optical bench is well worth the investment. It provides my company with a simple build and install solution, saving both time and money. The output of the lasers is crisp – unlike a lot of Chinese lasers which often have different divergences between colours. I would recommend KVANT to anyone who wants quality.","author":"Paul Hill Saturday Enterprises – Brisbane, Australia"}},"1585742281093":{"type":"text","settings":{"quote":"I recently sold and installed two KVANT Clubmax1800 Lasers at Woodport Inn's nightclub. I’m just amazed with their quality; they blow away anything I have ever seen or used. The colours, the beam sharpness, the build quality – all fantastic. Everyone who came down to have a look when I installed them was very impressed. Big thanks to Dave Leigh at Lumina Visual productions for hooking me up!","author":"Warren Hook, Engage Audio Visual – New South Wales, Australia"}},"1585742293700":{"type":"text","settings":{"quote":"KVANT lasers have surprised us time and time again – not only with how spectacularly they perform at a show, but also how easy to use our technicians find them. Our clients constantly remark on how stunning our shows look when we use KVANT.","author":"Matthew Jens, Australia – Synergy Event"}},"1585742303316":{"type":"text","settings":{"quote":"We have been working with KVANT since 2005 and have done hundreds of shows together. The professionalism and quality of KVANT lasers is unmatched. The proof is in the world-class productions such as those for Justin Bieber, Duran Duran, Nicki Minaj, David Guetta’s world tour, Steve Aoky’s world tour, Skrillex, Doitch Bank Italy, Mediolanum Bank, BMW, Mercedes, Ducati, Ferrari and many others. Special thanks to our contact people at KVANT: Michal, Dusan and Milan. THANK YOU FOR THESE SPECTACULAR 10 YEARS.","author":"Super FX – Filippo Scortichini"}},"1585742313885":{"type":"text","settings":{"quote":"The reliability and steady quality of KVANT rental service is based on their vast experience, ability to understand the client's needs, and of course their well-crafted KVANT laser projectors. KVANT rental service knows their products, knows how to use them, and knows how to manage the project as well. As their rental client, you can relax and rely that everything will be taken care of.","author":"Laserboy Sweden – Filip Lundkvist"}},"1585742322869":{"type":"text","settings":{"quote":"We have been working with KVANT very closely for many years now, and we are pleased to represent KVANT in Russia as their official distributor. We have repeatedly invited KVANT to joint projects in Europe and Asia, and have always been satisfied with the professional level of their rental department employees. Best wishes for this company.","author":"Orion Art Multimedia Moscow – Alexander Timofeev"}},"1585742333164":{"type":"text","settings":{"quote":"After working with KVANT over the years, these are my sincere impressions: good rental service and availability, even when we needed multiple lasers; balanced prices; knowledgeable and helpful technical support when needed. All in all – KVANT rental service is an excellent partner!","author":"Lightco IT – Franco Lorenzi"}},"1585742341693":{"type":"text","settings":{"quote":"Everyone at KVANT in their sales and rental departments is incredible to work with! They are among our most trusted relationships, and working with everyone in their organization is always a pleasure. We consider them as family, and they are an integral part of our business!","author":"Lightwave International USA – Brian Bourgeois"}},"1585742350317":{"type":"text","settings":{"quote":"KVANT and their products are famous here in Russia. The quality and reliability of their equipment is always exceptional. Many thanks to the rental department and personally to Mr. Simkovich and Mr. Dobsovic. They are ready to help with our events, 24\/7! Fast response to our needs, perfect organization of logistics, and always perfect working equipment! Many thanks for our long and effective cooperation with KVANT!","author":"LaserNewTec Company Moscow – Miroslav Kazakov"}}},"block_order":["1585742130869","1585742144941","1585742164085","1585742174829","1585742183277","1585742191493","1585742201188","1585742210525","1585742219532","1585742232069","1585742242917","1585742252508","1585742263093","1585742272092","1585742281093","1585742293700","1585742303316","1585742313885","1585742322869","1585742333164","1585742341693","1585742350317"],"settings":{}},"events":{"type":"events","settings":{}},"sales-network-section":{"type":"sales-network-section","blocks":{"1586336739940":{"type":"text","settings":{"title":"Company\/Person Name","city":"City","phone":"00421-2-654 113 55","country":"Country","website_link_title":"kvant-lasers-hq.myshopify.com","website_link":"http:\/\/kvant-lasers-hq.myshopify.com","flag":""}},"1586336899811":{"type":"text","settings":{"title":"Company\/Person Name","city":"City","phone":"00421-2-654 113 55","country":"Country","website_link_title":"kvant-lasers-hq.myshopify.com","website_link":"http:\/\/kvant-lasers-hq.myshopify.com","flag":""}},"1586336906547":{"type":"text","settings":{"title":"Company\/Person Name","city":"City","phone":"00421-2-654 113 55","country":"Country","website_link_title":"kvant-lasers-hq.myshopify.com","website_link":"http:\/\/kvant-lasers-hq.myshopify.com","flag":""}},"1586336914459":{"type":"text","settings":{"title":"Company\/Person Name","city":"City","phone":"00421-2-654 113 55","country":"Country","website_link_title":"kvant-lasers-hq.myshopify.com","website_link":"http:\/\/kvant-lasers-hq.myshopify.com","flag":""}}},"block_order":["1586336739940","1586336899811","1586336906547","1586336914459"],"settings":{}},"1586781847309":{"type":"hero","settings":{"image":"shopify:\/\/shop_images\/b1.jpg","alignment":"center","hero_layout":"full_width","hero_size":"adapt","text_size":"large","title":"","text":"<p><strong>There is close to 25 years of experience and innovation in every KVANT laser module. We provide lasers for Science, Industry and Education.<\/strong><\/p>","button_label":"","button_link":""}},"1586783674235":{"type":"wavelength-guide","settings":{"title":"Wavelength guide","info":"<p>Over the years, we extensively expanded our range of laser modules, and now we cover a broad spectrum of laser wavelengths. From ultraviolet lasers, via visible spectrum, up to near-infrared lasers.<\/p><p><br\/>Currently, we offer over 120 different laser modules, with power output ranging from 5mW up to 30 Watts, in the range from 304nm to 975nm. The wavelength chart below shows all the currently available laser wavelengths we offer. Just click on one of the wavelength numbers or the point on the chart and the system will display all the available models for that wavelength.<\/p>"}},"1586789139529":{"type":"video-with-text","settings":{"title":"About Our Laser Modules","info":"<p><span class=\"bold-text\">Our Blue Light Pumped (BLP) solid-state lasers are based on innovative laser technology. The InGaN-based pumping laser diode and fluoride crystals are a good base for durability and long lifetime.<\/span><br><br>\nA few years ago we invented our popular orange and red lasers based on this new technology. Recently we introduced our first UV laser with 320nm wavelength and a few milliwatts of power that is very close to nitrogen, excimer and some other gas lasers - to substitute the current HeCd metal ion gas lasers. It can be utilised in biotechnology, medicine, microelectronics technology, etching substrates or polymerisation.<\/p>\n<h3>Single Diode Modules<\/h3>\n<p>Our diode laser modules are equipped only with high-quality laser diodes manufactured by prestigious laser diode manufacturers.<br>\nAll modules are temperature stabilised to yield maximum lifetime, optimal performance and power stability. The driving electronics allows analogue modulation up to 100 kHz with a linear response between the modulation signal and laser output power. Fibre coupling is possible for most of these laser modules.<\/p>\n<h3>Multi Diode Modules<\/h3>\n<p>Some applications require a high power laser beam which cannot be achieved with single emitter laser diodes.<br>\nWe combine up to 64 single laser diodes and bundle the individual laser beams into a single output beam.<\/p>\n<h3>Optically Pumped Semiconductor Lasers (OPSL)<\/h3>\n<p>We are an official integrator of Coherent Genesis Taipan optically pumped semiconductor laser heads.<br>\nAll Coherent heads are equipped with our own electronics and delivered as stand-alone laboratory systems or as industrial OEM version for further integration. There are single-mode and multimode versions available. The advantage of the OPSL technology is the ability to deliver high power outputs at unique wavelengths and excellent beam quality. <span class=\"bold-text\">So far we integrated over 1,000 Coherent laser heads.<\/span><\/p>","video":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/KhscdQftTsI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"}},"faq-section":{"type":"faq-section","blocks":{"1586950580062":{"type":"text","settings":{"title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit?","faq_answer":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href=\"#\" title=\"#\">Consectetur libero id faucibus nisl tincidunt eget nullam.<\/a> Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor. <a href=\"#\" title=\"#\">Placerat orci<\/a> nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"}},"1586950620799":{"type":"text","settings":{"title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit?","faq_answer":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"}},"1586950629671":{"type":"text","settings":{"title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit?","faq_answer":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"}},"1586950636550":{"type":"text","settings":{"title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit?","faq_answer":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"}}},"block_order":["1586950580062","1586950620799","1586950629671","1586950636550"],"settings":{"heading":"General Questions"}},"1587751355475":{"type":"feature-row","disabled":true,"settings":{"layout":"left","title":"Our mission is to ensure that a uniform and quality beam comes out of every KVANT laser module.","text":"<p>Kvant offers laser modules with wavelengths from deep UV to NIR and power ranges from a few milliwatts up to tens of watts. Single diode lasers, multi-diode assemblies as well as solid-state lasers can be combined into a single free space beam or fibre coupled output.<\/p>","button_label":"Find Your Module","button_link":"shopify:\/\/pages\/laser-modules-by-type"}},"1587751513019":{"type":"feature-row","disabled":true,"settings":{"layout":"left","title":"Our Blue Light Pumped (BLP) solid-state lasers are based on innovative laser technology. The InGaN-based pumping laser diode and fluoride crystals are a good base for durability and long lifetime.","text":"<p>A few years ago we invented our popular orange and red lasers based on this new technology. Recently we introduced our first UV laser with 320nm wavelength and a few milliwatts of power that is very close to nitrogen, excimer and some other gas lasers - to substitute the current HeCd metal ion gas lasers. It can be utilised in biotechnology, medicine, microelectronics technology, etching substrates or polymerisation.<\/p>","button_label":"","button_link":""}},"1587814976900":{"type":"our-clients-homepage","blocks":{"1587814985312":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/1.png","client_link":"http:\/\/www.nuigalway.ie\/physics\/"}},"1587815002409":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/2.png","client_link":"http:\/\/www.sysmex.co.jp\/en\/"}},"1587815018810":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/3.png","client_link":"https:\/\/www.u-bordeaux.com\/"}},"1587815032767":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/4.png","client_link":"https:\/\/en.volkswagen.com\/en.html"}},"1587815047335":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/5.png","client_link":"https:\/\/www.metas.ch\/content\/metas\/de\/home.html"}},"1587815063889":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/6.png","client_link":"https:\/\/www.uni-konstanz.de\/"}},"1587815080368":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/7.png","client_link":"http:\/\/www.sheffield.ac.uk\/"}},"1587815096497":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/8.png","client_link":"https:\/\/www.agilent.com\/en\/product\/automated-electrophoresis"}},"1587815115675":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/9.png","client_link":"https:\/\/www.qmul.ac.uk\/spa\/"}},"1587815139413":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/10.png","client_link":"http:\/\/www.u-tokyo.ac.jp\/en\/index.html"}},"1587815155505":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/11.png","client_link":"https:\/\/www.f08.uni-stuttgart.de\/physik\/"}},"1587815170473":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/12.png","client_link":"https:\/\/www.uni-bonn.de\/"}},"1587815185521":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/13.png","client_link":"https:\/\/www.epfl.ch\/en\/"}},"1587815203929":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/14.png","client_link":"https:\/\/www.leeds.ac.uk\/"}},"1587815218396":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/15.png","client_link":"http:\/\/www.port.ac.uk\/school-of-civil-engineering-and-surveying\/"}},"1587815235322":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/16.png","client_link":"https:\/\/gulbenkian.pt\/"}},"1588252443980":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/17.png","client_link":"http:\/\/eu.automotive.panasonic.com\/"}},"1588252472605":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/18.png","client_link":"https:\/\/www.kcl.ac.uk\/"}},"1588252489037":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/19.png","client_link":"https:\/\/www.errol-laser.com\/"}},"bcd2b7c2-4426-48b5-a2f1-cd36c629fbac":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/20.png","client_link":"https:\/\/www.zeiss.com\/corporate\/int\/home.html"}},"62acfb9e-7607-4411-b557-ae563c404cda":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/21.png","client_link":"https:\/\/www.btlnet.com\/"}},"efd15749-a2a7-4517-947d-d03671c054f8":{"type":"text","settings":{"client_image":"shopify:\/\/shop_images\/22.png","client_link":"https:\/\/www.coghlincompanies.com\/cogmedix\/"}}},"block_order":["1587814985312","1587815002409","1587815018810","1587815032767","1587815047335","1587815063889","1587815080368","1587815096497","1587815115675","1587815139413","1587815155505","1587815170473","1587815185521","1587815203929","1587815218396","1587815235322","1588252443980","1588252472605","1588252489037","bcd2b7c2-4426-48b5-a2f1-cd36c629fbac","62acfb9e-7607-4411-b557-ae563c404cda","efd15749-a2a7-4517-947d-d03671c054f8"],"settings":{"title":"Our Clients"}},"1587826835054":{"type":"rich-text","settings":{"full_width":false,"section_title":"Our mission is to ensure that a uniform and quality beam comes out of every KVANT laser module.","text":"<p>Kvant offers laser modules with wavelengths from deep UV to NIR and power ranges from a few milliwatts up to tens of watts. Single diode lasers, multi-diode assemblies as well as solid-state lasers can be combined into a single free space beam or fibre coupled output.<\/p>","btn_link":"https:\/\/lasermodules.myshopify.com\/","link_text":"Find Your Module","second_btn_link":"https:\/\/cdn.shopify.com\/s\/files\/1\/0310\/9955\/1789\/files\/KVANT_Laser_Modules_Catalogue.pdf?v=1602598435","second_link_text":"Product Catalogue Download","text_size":"medium"}},"laser-modules-by-wavelength-section":{"type":"laser-modules-by-wavelength-section","settings":{}}},"content_for_index":["1586781847309","1586783674235","1587751355475","1587826835054","1586789139529","1587751513019","1580910331581","1587814976900"],"blocks":{"14656832010101544780":{"type":"shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99","disabled":false,"settings":{}}}},"presets":{"Default":{"color_text":"#3d4246","color_body_text":"#69727b","color_sale_text":"#557B97","color_borders":"#e8e9eb","color_button":"#557B97","color_button_text":"#fff","color_small_button_text_border":"#3d4246","color_text_field":"#fff","color_text_field_text":"#000","color_text_field_border":"#949494","color_image_overlay_text":"#fff","color_image_overlay":"#3d4246","image_overlay_opacity":40,"color_body_bg":"#fff","type_header_font":"work_sans_n6","type_header_base_size":26,"type_base_font":"work_sans_n4","type_base_size":16,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"sections":{"header":{"type":"header","settings":{}},"hero":{"type":"hero","settings":{"text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{}},"slideshow-1":{"type":"image","settings":{}}},"block_order":["slideshow-0","slideshow-1"],"settings":{}},"featured-collections":{"type":"collection","settings":{"collection":"frontpage"}},"feature-row":{"type":"feature-row","settings":{}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{}}},"content_for_index":["hero","featured-collections","feature-row","slideshow"]},"Light":{"color_text":"#162950","color_body_text":"#6d6d6d","color_sale_text":"#DA2F0C","color_borders":"#e4e4e4","color_button":"#DA2F0C","color_button_text":"#ffffff","color_small_button_text_border":"#162950","color_text_field":"#ffffff","color_text_field_text":"#162950","color_text_field_border":"#909090","color_image_overlay_text":"#ffffff","color_image_overlay":"#3d3d3d","image_overlay_opacity":40,"color_body_bg":"#f8f8f8","type_header_font":"muli_n6","type_header_base_size":26,"type_base_font":"muli_n4","type_base_size":18,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","favicon":"","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"small","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#e8f3f6","checkout_heading_font":"Roboto","checkout_body_font":"Source Sans Pro","checkout_accent_color":"#1990c6","checkout_button_color":"#23314e","checkout_error_color":"#ff6d6d","sections":{"header":{"type":"header","settings":{"logo":"","logo_max_width":135,"main_linklist":"main-menu","message":true,"color_bg":"#162950","color_text":"#ffffff"}},"hero":{"type":"hero","settings":{"alignment":"center","hero_size":"x-large","text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"image":"","alignment":"center center"}},"1492095993817":{"type":"image","settings":{"image":"","alignment":"center"}}},"block_order":["slideshow-0","1492095993817"],"settings":{"slideshow_height":"medium","text_size":"medium","autorotate":false,"autorotate_speed":5}},"featured-collections":{"type":"collection","settings":{"grid":3,"rows":1,"show_vendor":true,"show_view_all":true}},"product-template":{"type":"product-template","settings":{}},"collection-template":{"type":"collection-template","settings":{"grid":2,"sort_enable":true,"tags_enable":true}},"1492033809691":{"type":"map","settings":{}},"1492033877875":{"type":"quotes","blocks":{"1492033877875-0":{"type":"quote","settings":{}}},"block_order":["1492033877875-0"],"settings":{}},"1492033924902":{"type":"custom-content","blocks":{"1492033924902-0":{"type":"text","settings":{"width":"100%","alignment":"center","align_text":"center"}}},"block_order":["1492033924902-0"],"settings":{"title":""}},"1492096252560":{"type":"collection-list","blocks":{"1492096252560-0":{"type":"featured_collection","settings":{}},"1492096252560-1":{"type":"featured_collection","settings":{}},"1492096252560-2":{"type":"featured_collection","settings":{}}},"block_order":["1492096252560-0","1492096252560-1","1492096252560-2"],"settings":{"grid":3}},"blog-template":{"type":"blog-template","settings":{}},"article-template":{"type":"article-template","settings":{"blog_show_author":true,"blog_show_date":true,"show_share_buttons":true}},"cart-template":{"type":"cart-template","settings":{"cart_notes_enable":false}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{}}},"content_for_index":["hero","featured-collections","slideshow","1492033924902","1492096252560","1492033877875","1492033809691"]}}}
+{
+  "current": {
+    "color_text": "#1b1b1b",
+    "color_body_text": "#1b1b1b",
+    "color_sale_text": "#557b97",
+    "color_button": "#d30000",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#1b1b1b",
+    "color_text_field_text": "#1b1b1b",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": 40,
+    "color_borders": "#e8e9eb",
+    "color_body_bg": "#fff",
+    "type_header_font": "work_sans_n6",
+    "type_header_base_size": 26,
+    "type_base_font": "work_sans_n4",
+    "type_base_size": 16,
+    "predictive_search_enabled": false,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "https:\/\/twitter.com\/KVANTLaser",
+    "social_facebook_link": "https:\/\/www.facebook.com\/kvantlasers",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopkvant",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "enable_ajax": false,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/modules-logo_6d8f7616-2b51-4c74-84ef-dbb35b4d878f.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#d30000",
+    "checkout_button_color": "#d30000",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/pangolin_kvant_lasers_logo.webp",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#f0f0f0",
+          "color_text": "#000000"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1580202135563": {
+            "type": "link_list",
+            "settings": {
+              "title": "Products",
+              "menu": "products"
+            }
+          },
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "Support",
+              "menu": "footer"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "social_title": "",
+              "show_social_icons": false,
+              "title": "Subscribe to our newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "1580202135563",
+          "link_list",
+          "newsletter"
+        ],
+        "settings": {
+          "color_footer_bg": "#ecebf0"
+        }
+      },
+      "1580910331581": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "",
+          "blog": "news",
+          "post_limit": 3
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": 4,
+          "sort_enable": true,
+          "tags_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Related products",
+          "show_vendor": false
+        }
+      },
+      "alternate-without-options-template": {
+        "type": "alternate-without-options-template",
+        "settings": {
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_share_buttons": false
+        }
+      },
+      "testimonials": {
+        "type": "testimonials",
+        "blocks": {
+          "1585742130869": {
+            "type": "text",
+            "settings": {
+              "quote": "I used KVANT lasers for a demo at Disney Imagineering. After a successful demo, we were awarded a contract for a new attraction at Disney Hong Kong. Working with the KVANT team was flawless, and KVANT was integral to our successful completion of this important project.",
+              "author": "Randy Johnson – Blisslights, USA"
+            }
+          },
+          "1585742144941": {
+            "type": "text",
+            "settings": {
+              "quote": "Our company specializes in video, but we often use lasers for a quality show. KVANT has been our exclusive partner for laser shows for more than 3 years. Together we have done a lot of events, including show scoring at ILDA awards, which we are rightly proud of :). KVANT is also a crucial supplier of LED screens, including the record-breaking longest in-store LED screen 30 meters long! For us, KVANT is a quality partner with the best service.",
+              "author": "Screenrental CZ – Jan Neubauer"
+            }
+          },
+          "1585742164085": {
+            "type": "text",
+            "settings": {
+              "quote": "We have been cooperating with KVANT for more than 5 years and have done tens of different projects in the Czech Republic and abroad together – from small art shows up to large multimedia shows for tens of thousands of viewers. We appreciate the professionalism and creativity which our colleagues from KVANT bring to our every mutual project. We have every reason to believe this cooperation will continue for years to come.",
+              "author": "Art4promotion CZ – Ing. Rudolf Střitecký"
+            }
+          },
+          "1585742174829": {
+            "type": "text",
+            "settings": {
+              "quote": "More than 50 events with KVANT lasers and LED screens have convinced us that it’s important to choose proven suppliers. A professional team and cutting-edge technologies make events with KVANT exceptional visual shows. That’s why Slovakia is never too far for us.",
+              "author": "Cirque Production CZ – Martin Kvítek"
+            }
+          },
+          "1585742183277": {
+            "type": "text",
+            "settings": {
+              "quote": "As the technical director for Arc Festival, I required a high impact laser solution to supplement a comprehensive installation on the main stage. KVANT UK provided an impressive full-colour multi laser setup for us, and programmed it expertly to match the diverse performances on the main stage. Working within tight time constraints, the hardware was installed quickly and safely. I would not hesitate to recommend KVANT UK for another project and would like to work with them again.",
+              "author": "Will Young – UK"
+            }
+          },
+          "1585742191493": {
+            "type": "text",
+            "settings": {
+              "quote": "It’s how a business responds when things go wrong that marks the quality of their service. We recently ordered two ATOM 1500 lasers from KVANT UK. The pre-sales assistance was excellent. However, one laser was received damaged upon delivery. Well, it was collected and the replacement received within 10 working days; no fuss, no bother, no stress. I also know that KVANT has worked to ensure the nature of the damage will not reoccur in the future.",
+              "author": "Laurence Lane – AMP, UK"
+            }
+          },
+          "1585742201188": {
+            "type": "text",
+            "settings": {
+              "quote": "With regard to the KVANT Spectrum 3W with HP scanners, all I can say is that the system is awesome – it blows my other Chinese lasers out of the water in every respect. People are always commenting that the quality of the beams and colours produced are the best they've ever seen, and I agree. The service from KVANT UK has also been excellent, usually with immediate and enthusiastic response.",
+              "author": "Sean Hockey – Illumashroom, UK"
+            }
+          },
+          "1585742210525": {
+            "type": "text",
+            "settings": {
+              "quote": "I've been doing laser shows for around 14 years and I bought my first KVANT projector 8 years ago. So far, I have done over 270 shows with it and it is still going strong! I just purchased two new ClubMax 3400 systems. Built like tanks, their performance is second to none, as expected. Anytime I’ve had technical questions, they were answered quickly. I hope to purchase more KVANT units real soon, as my clients really notice the difference between them and the cheaper Chinese-built systems my competitors use.",
+              "author": "Carlos Lopez – LasersLive, USA"
+            }
+          },
+          "1585742219532": {
+            "type": "text",
+            "settings": {
+              "quote": "We were doing a light and laser show for the unveiling of Barone Fortress in Šibenik on the Adriatic coast. Two hours before the event, we realized that one KVANT Clubmax 6000 was only projecting in red. After some error checking, I decided to call KVANT tech support. Long story short, after a very long call with an extremely helpful support technician, we determined the cause and repaired it right there just before the event started. You have excellent tech support which saved me in a very tricky situation, and I am really grateful.",
+              "author": "Hrvoje Simic – Prolight, Croatia"
+            }
+          },
+          "1585742232069": {
+            "type": "text",
+            "settings": {
+              "quote": "I recently purchased a KVANT ClubMax 6000 and I am very impressed with this laser projector. The beams are tight, with clean color mixing, and the Pangolin 506 scanners maintain image integrity even with complex graphics. We really stress-tested the projector during the 2015 YouTube Music Awards, and it handled everything we threw at it. It outperformed some of the bigger and more expensive projectors we had, especially at wide angles. I plan to order more of these. KVANT quality is unbeatable, especially at such a great price.",
+              "author": "Adam LaBay – Future Weapons, USA"
+            }
+          },
+          "1585742242917": {
+            "type": "text",
+            "settings": {
+              "quote": "I have a customer who wanted to rent the same lasers he rented last year. I told him that I had something new that he might like, and I could showcase it for him at an upcoming meeting with his fellow colleagues. I walked into the meeting and set up the KVANT unit. After the fog machine fired up, I turned on the laser with some simple beam shows... \"Holy cow!\" was pretty much the reaction in the entire room! Not only was my client amazed, but his entire crew lit up almost as bright as the laser itself. They could not have been more happy and excited with anticipation for the event coming up. I know that this laser will be the pinnacle of the show.",
+              "author": "Bob Fleischmann – USA"
+            }
+          },
+          "1585742252508": {
+            "type": "text",
+            "settings": {
+              "quote": "Here at FullColorlasers.com we were looking for the perfect laser for small to medium size venues at an affordable price. We initially decided to purchase two Clubmax 3000s just for a test, and ended up being so pleased with their performance that we immediately purchased six more units. This laser has more power than expected, is durable, and produces vivid colors. For the price, you simply can’t beat it!",
+              "author": "Brooks Palmers – Full Color Lasers, USA"
+            }
+          },
+          "1585742263093": {
+            "type": "text",
+            "settings": {
+              "quote": "I used KVANT lasers for a demo at Disney Imagineering. After a successful demonstration of Particle effects (Laser Pixi Dust Trails), Blisslights was awarded a contract to develop a variation of the Particle effect for the new ride attraction \"Mystic Manor\" at Disney Hong Kong. Working with the KVANT team was flawless, and KVANT was an integral part of our successful completion of this important project.",
+              "author": "Randy Johnson – Blisslights, USA"
+            }
+          },
+          "1585742272092": {
+            "type": "text",
+            "settings": {
+              "quote": "I am very impressed with the build quality and construction of the ClubMax 6000 lasers. The FB4 backpacks and the optional optical bench is well worth the investment. It provides my company with a simple build and install solution, saving both time and money. The output of the lasers is crisp – unlike a lot of Chinese lasers which often have different divergences between colours. I would recommend KVANT to anyone who wants quality.",
+              "author": "Paul Hill Saturday Enterprises – Brisbane, Australia"
+            }
+          },
+          "1585742281093": {
+            "type": "text",
+            "settings": {
+              "quote": "I recently sold and installed two KVANT Clubmax1800 Lasers at Woodport Inn's nightclub. I’m just amazed with their quality; they blow away anything I have ever seen or used. The colours, the beam sharpness, the build quality – all fantastic. Everyone who came down to have a look when I installed them was very impressed. Big thanks to Dave Leigh at Lumina Visual productions for hooking me up!",
+              "author": "Warren Hook, Engage Audio Visual – New South Wales, Australia"
+            }
+          },
+          "1585742293700": {
+            "type": "text",
+            "settings": {
+              "quote": "KVANT lasers have surprised us time and time again – not only with how spectacularly they perform at a show, but also how easy to use our technicians find them. Our clients constantly remark on how stunning our shows look when we use KVANT.",
+              "author": "Matthew Jens, Australia – Synergy Event"
+            }
+          },
+          "1585742303316": {
+            "type": "text",
+            "settings": {
+              "quote": "We have been working with KVANT since 2005 and have done hundreds of shows together. The professionalism and quality of KVANT lasers is unmatched. The proof is in the world-class productions such as those for Justin Bieber, Duran Duran, Nicki Minaj, David Guetta’s world tour, Steve Aoky’s world tour, Skrillex, Doitch Bank Italy, Mediolanum Bank, BMW, Mercedes, Ducati, Ferrari and many others. Special thanks to our contact people at KVANT: Michal, Dusan and Milan. THANK YOU FOR THESE SPECTACULAR 10 YEARS.",
+              "author": "Super FX – Filippo Scortichini"
+            }
+          },
+          "1585742313885": {
+            "type": "text",
+            "settings": {
+              "quote": "The reliability and steady quality of KVANT rental service is based on their vast experience, ability to understand the client's needs, and of course their well-crafted KVANT laser projectors. KVANT rental service knows their products, knows how to use them, and knows how to manage the project as well. As their rental client, you can relax and rely that everything will be taken care of.",
+              "author": "Laserboy Sweden – Filip Lundkvist"
+            }
+          },
+          "1585742322869": {
+            "type": "text",
+            "settings": {
+              "quote": "We have been working with KVANT very closely for many years now, and we are pleased to represent KVANT in Russia as their official distributor. We have repeatedly invited KVANT to joint projects in Europe and Asia, and have always been satisfied with the professional level of their rental department employees. Best wishes for this company.",
+              "author": "Orion Art Multimedia Moscow – Alexander Timofeev"
+            }
+          },
+          "1585742333164": {
+            "type": "text",
+            "settings": {
+              "quote": "After working with KVANT over the years, these are my sincere impressions: good rental service and availability, even when we needed multiple lasers; balanced prices; knowledgeable and helpful technical support when needed. All in all – KVANT rental service is an excellent partner!",
+              "author": "Lightco IT – Franco Lorenzi"
+            }
+          },
+          "1585742341693": {
+            "type": "text",
+            "settings": {
+              "quote": "Everyone at KVANT in their sales and rental departments is incredible to work with! They are among our most trusted relationships, and working with everyone in their organization is always a pleasure. We consider them as family, and they are an integral part of our business!",
+              "author": "Lightwave International USA – Brian Bourgeois"
+            }
+          },
+          "1585742350317": {
+            "type": "text",
+            "settings": {
+              "quote": "KVANT and their products are famous here in Russia. The quality and reliability of their equipment is always exceptional. Many thanks to the rental department and personally to Mr. Simkovich and Mr. Dobsovic. They are ready to help with our events, 24\/7! Fast response to our needs, perfect organization of logistics, and always perfect working equipment! Many thanks for our long and effective cooperation with KVANT!",
+              "author": "LaserNewTec Company Moscow – Miroslav Kazakov"
+            }
+          }
+        },
+        "block_order": [
+          "1585742130869",
+          "1585742144941",
+          "1585742164085",
+          "1585742174829",
+          "1585742183277",
+          "1585742191493",
+          "1585742201188",
+          "1585742210525",
+          "1585742219532",
+          "1585742232069",
+          "1585742242917",
+          "1585742252508",
+          "1585742263093",
+          "1585742272092",
+          "1585742281093",
+          "1585742293700",
+          "1585742303316",
+          "1585742313885",
+          "1585742322869",
+          "1585742333164",
+          "1585742341693",
+          "1585742350317"
+        ],
+        "settings": {
+        }
+      },
+      "events": {
+        "type": "events",
+        "settings": {
+        }
+      },
+      "sales-network-section": {
+        "type": "sales-network-section",
+        "blocks": {
+          "1586336739940": {
+            "type": "text",
+            "settings": {
+              "title": "Company\/Person Name",
+              "city": "City",
+              "phone": "00421-2-654 113 55",
+              "country": "Country",
+              "website_link_title": "kvant-lasers-hq.myshopify.com",
+              "website_link": "http:\/\/kvant-lasers-hq.myshopify.com",
+              "flag": ""
+            }
+          },
+          "1586336899811": {
+            "type": "text",
+            "settings": {
+              "title": "Company\/Person Name",
+              "city": "City",
+              "phone": "00421-2-654 113 55",
+              "country": "Country",
+              "website_link_title": "kvant-lasers-hq.myshopify.com",
+              "website_link": "http:\/\/kvant-lasers-hq.myshopify.com",
+              "flag": ""
+            }
+          },
+          "1586336906547": {
+            "type": "text",
+            "settings": {
+              "title": "Company\/Person Name",
+              "city": "City",
+              "phone": "00421-2-654 113 55",
+              "country": "Country",
+              "website_link_title": "kvant-lasers-hq.myshopify.com",
+              "website_link": "http:\/\/kvant-lasers-hq.myshopify.com",
+              "flag": ""
+            }
+          },
+          "1586336914459": {
+            "type": "text",
+            "settings": {
+              "title": "Company\/Person Name",
+              "city": "City",
+              "phone": "00421-2-654 113 55",
+              "country": "Country",
+              "website_link_title": "kvant-lasers-hq.myshopify.com",
+              "website_link": "http:\/\/kvant-lasers-hq.myshopify.com",
+              "flag": ""
+            }
+          }
+        },
+        "block_order": [
+          "1586336739940",
+          "1586336899811",
+          "1586336906547",
+          "1586336914459"
+        ],
+        "settings": {
+        }
+      },
+      "1586781847309": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/b1.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "large",
+          "title": "",
+          "text": "<p><strong>There is close to 25 years of experience and innovation in every KVANT laser module. We provide lasers for Science, Industry and Education.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1586783674235": {
+        "type": "wavelength-guide",
+        "settings": {
+          "title": "Wavelength guide",
+          "info": "<p>Over the years, we extensively expanded our range of laser modules, and now we cover a broad spectrum of laser wavelengths. From ultraviolet lasers, via visible spectrum, up to near-infrared lasers.<\/p><p><br\/>Currently, we offer over 120 different laser modules, with power output ranging from 5mW up to 30 Watts, in the range from 304nm to 975nm. The wavelength chart below shows all the currently available laser wavelengths we offer. Just click on one of the wavelength numbers or the point on the chart and the system will display all the available models for that wavelength.<\/p>"
+        }
+      },
+      "1586789139529": {
+        "type": "video-with-text",
+        "settings": {
+          "title": "About Our Laser Modules",
+          "info": "<p><span class=\"bold-text\">Our Blue Light Pumped (BLP) solid-state lasers are based on innovative laser technology. The InGaN-based pumping laser diode and fluoride crystals are a good base for durability and long lifetime.<\/span><br><br>\nA few years ago we invented our popular orange and red lasers based on this new technology. Recently we introduced our first UV laser with 320nm wavelength and a few milliwatts of power that is very close to nitrogen, excimer and some other gas lasers - to substitute the current HeCd metal ion gas lasers. It can be utilised in biotechnology, medicine, microelectronics technology, etching substrates or polymerisation.<\/p>\n<h3>Single Diode Modules<\/h3>\n<p>Our diode laser modules are equipped only with high-quality laser diodes manufactured by prestigious laser diode manufacturers.<br>\nAll modules are temperature stabilised to yield maximum lifetime, optimal performance and power stability. The driving electronics allows analogue modulation up to 100 kHz with a linear response between the modulation signal and laser output power. Fibre coupling is possible for most of these laser modules.<\/p>\n<h3>Multi Diode Modules<\/h3>\n<p>Some applications require a high power laser beam which cannot be achieved with single emitter laser diodes.<br>\nWe combine up to 64 single laser diodes and bundle the individual laser beams into a single output beam.<\/p>\n<h3>Optically Pumped Semiconductor Lasers (OPSL)<\/h3>\n<p>We are an official integrator of Coherent Genesis Taipan optically pumped semiconductor laser heads.<br>\nAll Coherent heads are equipped with our own electronics and delivered as stand-alone laboratory systems or as industrial OEM version for further integration. There are single-mode and multimode versions available. The advantage of the OPSL technology is the ability to deliver high power outputs at unique wavelengths and excellent beam quality. <span class=\"bold-text\">So far we integrated over 1,000 Coherent laser heads.<\/span><\/p>",
+          "video": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/KhscdQftTsI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+        }
+      },
+      "faq-section": {
+        "type": "faq-section",
+        "blocks": {
+          "1586950580062": {
+            "type": "text",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href=\"#\" title=\"#\">Consectetur libero id faucibus nisl tincidunt eget nullam.<\/a> Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor. <a href=\"#\" title=\"#\">Placerat orci<\/a> nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"
+            }
+          },
+          "1586950620799": {
+            "type": "text",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"
+            }
+          },
+          "1586950629671": {
+            "type": "text",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"
+            }
+          },
+          "1586950636550": {
+            "type": "text",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Euismod elementum nisi quis eleifend. Ut pharetra sit amet aliquam id diam maecenas ultricies. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Urna neque viverra justo nec ultrices dui sapien. Amet cursus sit amet dictum. Dictum varius duis at consectetur lorem donec massa. Vestibulum lorem sed risus ultricies tristique nulla aliquet. In hendrerit gravida rutrum quisque non tellus orci ac auctor.&nbsp;<a href=\"\/admin\/themes\/97647231021\/editor\" title=\"#\">Placerat orci<\/a>&nbsp;nulla pellentesque dignissim enim sit amet venenatis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Orci dapibus ultrices in iaculis nunc sed. Sit amet volutpat consequat mauris nunc congue nisi vitae.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1586950580062",
+          "1586950620799",
+          "1586950629671",
+          "1586950636550"
+        ],
+        "settings": {
+          "heading": "General Questions"
+        }
+      },
+      "1587751355475": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "layout": "left",
+          "title": "Our mission is to ensure that a uniform and quality beam comes out of every KVANT laser module.",
+          "text": "<p>Kvant offers laser modules with wavelengths from deep UV to NIR and power ranges from a few milliwatts up to tens of watts. Single diode lasers, multi-diode assemblies as well as solid-state lasers can be combined into a single free space beam or fibre coupled output.<\/p>",
+          "button_label": "Find Your Module",
+          "button_link": "shopify:\/\/pages\/laser-modules-by-type"
+        }
+      },
+      "1587751513019": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "layout": "left",
+          "title": "Our Blue Light Pumped (BLP) solid-state lasers are based on innovative laser technology. The InGaN-based pumping laser diode and fluoride crystals are a good base for durability and long lifetime.",
+          "text": "<p>A few years ago we invented our popular orange and red lasers based on this new technology. Recently we introduced our first UV laser with 320nm wavelength and a few milliwatts of power that is very close to nitrogen, excimer and some other gas lasers - to substitute the current HeCd metal ion gas lasers. It can be utilised in biotechnology, medicine, microelectronics technology, etching substrates or polymerisation.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1587814976900": {
+        "type": "our-clients-homepage",
+        "blocks": {
+          "1587814985312": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/1.png",
+              "client_link": "http:\/\/www.nuigalway.ie\/physics\/"
+            }
+          },
+          "1587815002409": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/2.png",
+              "client_link": "http:\/\/www.sysmex.co.jp\/en\/"
+            }
+          },
+          "1587815018810": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/3.png",
+              "client_link": "https:\/\/www.u-bordeaux.com\/"
+            }
+          },
+          "1587815032767": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/4.png",
+              "client_link": "https:\/\/en.volkswagen.com\/en.html"
+            }
+          },
+          "1587815047335": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/5.png",
+              "client_link": "https:\/\/www.metas.ch\/content\/metas\/de\/home.html"
+            }
+          },
+          "1587815063889": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/6.png",
+              "client_link": "https:\/\/www.uni-konstanz.de\/"
+            }
+          },
+          "1587815080368": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/7.png",
+              "client_link": "http:\/\/www.sheffield.ac.uk\/"
+            }
+          },
+          "1587815096497": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/8.png",
+              "client_link": "https:\/\/www.agilent.com\/en\/product\/automated-electrophoresis"
+            }
+          },
+          "1587815115675": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/9.png",
+              "client_link": "https:\/\/www.qmul.ac.uk\/spa\/"
+            }
+          },
+          "1587815139413": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/10.png",
+              "client_link": "http:\/\/www.u-tokyo.ac.jp\/en\/index.html"
+            }
+          },
+          "1587815155505": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/11.png",
+              "client_link": "https:\/\/www.f08.uni-stuttgart.de\/physik\/"
+            }
+          },
+          "1587815170473": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/12.png",
+              "client_link": "https:\/\/www.uni-bonn.de\/"
+            }
+          },
+          "1587815185521": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/13.png",
+              "client_link": "https:\/\/www.epfl.ch\/en\/"
+            }
+          },
+          "1587815203929": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/14.png",
+              "client_link": "https:\/\/www.leeds.ac.uk\/"
+            }
+          },
+          "1587815218396": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/15.png",
+              "client_link": "http:\/\/www.port.ac.uk\/school-of-civil-engineering-and-surveying\/"
+            }
+          },
+          "1587815235322": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/16.png",
+              "client_link": "https:\/\/gulbenkian.pt\/"
+            }
+          },
+          "1588252443980": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/17.png",
+              "client_link": "http:\/\/eu.automotive.panasonic.com\/"
+            }
+          },
+          "1588252472605": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/18.png",
+              "client_link": "https:\/\/www.kcl.ac.uk\/"
+            }
+          },
+          "1588252489037": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/19.png",
+              "client_link": "https:\/\/www.errol-laser.com\/"
+            }
+          },
+          "bcd2b7c2-4426-48b5-a2f1-cd36c629fbac": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/20.png",
+              "client_link": "https:\/\/www.zeiss.com\/corporate\/int\/home.html"
+            }
+          },
+          "62acfb9e-7607-4411-b557-ae563c404cda": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/21.png",
+              "client_link": "https:\/\/www.btlnet.com\/"
+            }
+          },
+          "efd15749-a2a7-4517-947d-d03671c054f8": {
+            "type": "text",
+            "settings": {
+              "client_image": "shopify:\/\/shop_images\/22.png",
+              "client_link": "https:\/\/www.coghlincompanies.com\/cogmedix\/"
+            }
+          }
+        },
+        "block_order": [
+          "1587814985312",
+          "1587815002409",
+          "1587815018810",
+          "1587815032767",
+          "1587815047335",
+          "1587815063889",
+          "1587815080368",
+          "1587815096497",
+          "1587815115675",
+          "1587815139413",
+          "1587815155505",
+          "1587815170473",
+          "1587815185521",
+          "1587815203929",
+          "1587815218396",
+          "1587815235322",
+          "1588252443980",
+          "1588252472605",
+          "1588252489037",
+          "bcd2b7c2-4426-48b5-a2f1-cd36c629fbac",
+          "62acfb9e-7607-4411-b557-ae563c404cda",
+          "efd15749-a2a7-4517-947d-d03671c054f8"
+        ],
+        "settings": {
+          "title": "Our Clients"
+        }
+      },
+      "1587826835054": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Our mission is to ensure that a uniform and quality beam comes out of every KVANT laser module.",
+          "text": "<p>Kvant offers laser modules with wavelengths from deep UV to NIR and power ranges from a few milliwatts up to tens of watts. Single diode lasers, multi-diode assemblies as well as solid-state lasers can be combined into a single free space beam or fibre coupled output.<\/p>",
+          "btn_link": "https:\/\/lasermodules.myshopify.com\/",
+          "link_text": "Find Your Module",
+          "second_btn_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0310\/9955\/1789\/files\/KVANT_Laser_Modules_Catalogue.pdf?v=1602598435",
+          "second_link_text": "Product Catalogue Download",
+          "text_size": "medium"
+        }
+      },
+      "laser-modules-by-wavelength-section": {
+        "type": "laser-modules-by-wavelength-section",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "1586781847309",
+      "1586783674235",
+      "1587751355475",
+      "1587826835054",
+      "1586789139529",
+      "1587751513019",
+      "1580910331581",
+      "1587814976900"
+    ],
+    "blocks": {
+      "14656832010101544780": {
+        "type": "shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "grid": 2,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
