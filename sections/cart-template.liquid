@@ -125,6 +125,9 @@
                       {%- endif -%}
 
                       {%- for p in properties -%}
+                      	{% assign first_char = p.first | slice: 0 %}
+ 						{% if first_char == "_" %}{% continue %}{% endif %}
+
                         {%- unless p.last == blank -%}
                           <li class="product-details__item product-details__item--property{%if property_size == 0%} hide{% endif %}" data-cart-item-property>
                             <span class="product-details__item-label" data-cart-item-property-name>{{ p.first }}: </span>
