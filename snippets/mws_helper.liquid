@@ -1,0 +1,48 @@
+<script>
+function mwApoCustom() {
+  function priceElement(id) {
+    if (typeof mwApoInit.response !== "undefined") {
+      for (const val of Object.values(mwApoInit.response)) {
+        for (const key in val.values) {
+          if (key == id) {
+            if (
+              typeof val.values[id].value.images !== "undefined" &&
+              val.values[id].value.images.length
+            ) {
+              return val.values[id].value.images[0].url;
+            }
+          }
+        }
+      }
+    }
+  }
+  function swatches(params) {
+    $(".mw-option__value").each(function (index, element) {
+      var $this = $(this);
+      var selected = $this.attr("data-value-id");
+      const image = priceElement(selected);
+      if (typeof image !== "undefined") {
+        $this.find(".mw-option__swatch-image").attr("src", image);
+      }
+    });
+  }
+  window.mwApoInit.onEvent = function (event, args) {
+    if (event == "init::finish") {
+      setTimeout(() => {
+        swatches();
+      }, 300);
+    }
+  };
+  window.mwApoInit.onCallback = function (event, data) {
+    return data;
+  };
+  
+}
+</script>
+
+<style>
+.mw-apo-add-to-cart-cloned {
+    margin: 0 auto;
+    background: #e31d24!important;
+}
+</style>

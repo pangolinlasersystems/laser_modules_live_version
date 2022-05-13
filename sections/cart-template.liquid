@@ -118,13 +118,16 @@
                           - http://docs.shopify.com/support/your-store/products/how-do-I-collect-additional-information-on-the-product-page-Like-for-a-monogram-engraving-or-customization
                       {%- endcomment -%}
 
-                      {% comment %}
+                 
                       {%- assign properties = 'template ' | split: ' ' -%}
                       {%- if property_size > 0 -%}
                         {%- assign properties = item.properties -%}
                       {%- endif -%}
 
                       {%- for p in properties -%}
+                      	{% assign first_char = p.first | slice: 0 %}
+ 						{% if first_char == "_" %}{% continue %}{% endif %}
+
                         {%- unless p.last == blank -%}
                           <li class="product-details__item product-details__item--property{%if property_size == 0%} hide{% endif %}" data-cart-item-property>
                             <span class="product-details__item-label" data-cart-item-property-name>{{ p.first }}: </span>
@@ -142,9 +145,7 @@
                           </li>
                         {%- endunless -%}
                       {%- endfor -%}
-                      {% endcomment %}
                       
-                      {% include 'mw_PO_cart' with item, code: 'properties' %}
                     </ul>
                     
                     {% if item.product.tags contains '2-weeks-ept' %}
