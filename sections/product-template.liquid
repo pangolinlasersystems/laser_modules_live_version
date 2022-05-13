@@ -251,23 +251,8 @@
           {% if prod_description[0] != blank %}
           <div class="prod_description__item">
             {{ prod_description[0] }}
-            {% comment %}
-            <a href="#" id="specification-btn-text" class="text-link expand-open">Show Full Specification</a>
-            {% endcomment %}
           </div>
           {% endif %}
-
-          {% comment %}
-          {% if prod_description[1] != blank %}
-          <div class="prod_description__item">
-            {{ prod_description[1] }}
-            {% if product.tags contains 'show_full_description' %}
-            {% else %}
-            <a href="#" id="description-btn-text" class="text-link expand-open">Show Full Description</a>
-            {% endif %}
-          </div>
-          {% endif %}
-          {% endcomment %}
           
           <div class="prod_description__item product-options" id="productOptions">
             <h3 class="h3_tab">Options</h3>
@@ -280,7 +265,6 @@
           {%- endcapture %}
 
           {% form 'product', product, class:form_classes, novalidate: 'novalidate', data-product-form: '' %}
-       
             {% unless product.has_only_default_variant %}
               <div class="product-form__controls-group">
                 {% for option in product.options_with_values %}
