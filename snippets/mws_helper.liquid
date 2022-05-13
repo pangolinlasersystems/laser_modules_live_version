@@ -1,13 +1,42 @@
 <script>
 function mwApoCustom() {
-  window.mwApoInit  = window.mwApoInit  || {};
+  function priceElement(id) {
+    if (typeof mwApoInit.response !== "undefined") {
+      for (const val of Object.values(mwApoInit.response)) {
+        for (const key in val.values) {
+          if (key == id) {
+            if (
+              typeof val.values[id].value.images !== "undefined" &&
+              val.values[id].value.images.length
+            ) {
+              return val.values[id].value.images[0].url;
+            }
+          }
+        }
+      }
+    }
+  }
+  function swatches(params) {
+    $(".mw-option__value").each(function (index, element) {
+      var $this = $(this);
+      var selected = $this.attr("data-value-id");
+      const image = priceElement(selected);
+      if (typeof image !== "undefined") {
+        $this.find(".mw-option__swatch-image").attr("src", image);
+      }
+    });
+  }
   window.mwApoInit.onEvent = function (event, args) {
-     console.log(event, args);
+    if (event == "init::finish") {
+      setTimeout(() => {
+        swatches();
+      }, 300);
+    }
   };
   window.mwApoInit.onCallback = function (event, data) {
-     return data;
+    return data;
   };
-  window.mwApoInit.settings.selectors.product.gallery_container = '.custom_selector';
+  
 }
 </script>
 
