@@ -118,7 +118,7 @@
                           - http://docs.shopify.com/support/your-store/products/how-do-I-collect-additional-information-on-the-product-page-Like-for-a-monogram-engraving-or-customization
                       {%- endcomment -%}
 
-                      {% comment %}
+                 
                       {%- assign properties = 'template ' | split: ' ' -%}
                       {%- if property_size > 0 -%}
                         {%- assign properties = item.properties -%}
@@ -142,9 +142,7 @@
                           </li>
                         {%- endunless -%}
                       {%- endfor -%}
-                      {% endcomment %}
                       
-                      {% include 'mw_PO_cart' with item, code: 'properties' %}
                     </ul>
                     
                     {% if item.product.tags contains '2-weeks-ept' %}
