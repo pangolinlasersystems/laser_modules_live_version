@@ -1,3 +1,16 @@
+<script>
+function mwApoCustom() {
+  window.mwApoInit  = window.mwApoInit  || {};
+  window.mwApoInit.onEvent = function (event, args) {
+     console.log(event, args);
+  };
+  window.mwApoInit.onCallback = function (event, data) {
+     return data;
+  };
+  window.mwApoInit.settings.selectors.product.gallery_container = '.custom_selector';
+}
+</script>
+
 <style>
 .mw-apo-add-to-cart-cloned {
     margin: 0 auto;
