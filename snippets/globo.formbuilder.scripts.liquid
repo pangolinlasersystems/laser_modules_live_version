@@ -31,7 +31,7 @@
     {% if customer %}
         Globo.FormBuilder.customer = {
             id : '{{ customer.id }}',
-            name : '{{ customer.name }}',
+            name : `{{ customer.name }}`,
             email : '{{ customer.email }}'
         };
     {% endif %}
@@ -42,9 +42,9 @@
     };
     {% if request.page_type == 'product' %}
     Globo.FormBuilder.product= {
-        title : '{{ product.title }}',
-        type : '{{ product.type }}',
-        vendor : '{{ product.vendor }}'
+        title : `{{ product.title }}`,
+        type : `{{ product.type }}`,
+        vendor : `{{ product.vendor }}`
     }
     {% endif %}
     Globo.FormBuilder.assetFormUrls = [];
